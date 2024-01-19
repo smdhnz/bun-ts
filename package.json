@@ -1,0 +1,20 @@
+{
+  "name": "title",
+  "module": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run src/index.ts",
+    "lint": "biome lint src/"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.5.2",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@t3-oss/env-core": "^0.7.3",
+    "zod": "^3.22.4"
+  }
+}
